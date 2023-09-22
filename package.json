@@ -1,6 +1,6 @@
 {
-  "name": "zod-validation-error",
-  "version": "1.5.0",
+  "name": "@colibryx/zod-validation-error",
+  "version": "1.5.1",
   "description": "Wrap zod validation errors in user-friendly readable messages",
   "keywords": [
     "zod",
@@ -12,17 +12,9 @@
     "type": "git",
     "url": "git://github.com/causaly/zod-validation-error.git"
   },
-  "author": {
-    "name": "Causaly Team",
-    "email": "front-end@causaly.com",
-    "url": "https://www.causaly.com"
-  },
+  "author": "Causaly Team <front-end@causaly.com> (https://www.causaly.com)",
   "contributors": [
-    {
-      "name": "Dimitrios C. Michalakos",
-      "email": "dimitris@jmike.gr",
-      "url": "https://github.com/jmike"
-    }
+    "Dimitrios C. Michalakos <dimitris@jmike.gr> (https://github.com/jmike)"
   ],
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -79,9 +71,16 @@
     "rimraf": "^5.0.1",
     "ts-jest": "^29.0.3",
     "typescript": "^5.1.6",
-    "zod": "^3.20.0"
+    "@colibryx/zod": "^3.22.4"
   },
   "peerDependencies": {
-    "zod": "^3.18.0"
+    "@colibryx/zod": "^3.22.4"
+  },
+  "bugs": {
+    "url": "https://github.com/causaly/zod-validation-error/issues"
+  },
+  "homepage": "https://github.com/causaly/zod-validation-error#readme",
+  "directories": {
+    "lib": "lib"
   }
 }
